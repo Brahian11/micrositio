@@ -7,7 +7,8 @@ window.onload = () => {
 }
 
 function animacion() {
-    gsap.from("#inicio", {opacity: 0, duration: 6});
+    gsap.from("#inicio", {opacity: 0, duration: 4});
+    gsap.to("#inicio", {rotation: 360, x: 0, duration: 2});
    
 }
 
