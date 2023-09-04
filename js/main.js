@@ -3,6 +3,12 @@ let btn, frm;
 window.onload = () => {
   btn = document.getElementById("btn_enviar"); 
   btn.addEventListener("click",enviar);
+  animacion();
+}
+
+function animacion() {
+    gsap.from("#inicio", {opacity: 0, duration: 6});
+   
 }
 
 function enviar(event){
